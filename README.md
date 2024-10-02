@@ -1,13 +1,19 @@
-# Pretending I Know Rust
+# Rusty Path
 
-[The Rust Book](https://doc.rust-lang.org/stable/book/)
+I would like to dedicate this repository to my journey of learning Rust. My goal is to develop my skills in Rust and understand enough crates and syntax for data science, including manipulation, visualization, and Machine Learning.
 
-## Error/Learning Log 🤔
+## Resources
 
-### 2023-11-22
+- [The Rust Book](https://doc.rust-lang.org/stable/book/)
+- [Udemy Course on Rust Programming](https://www.udemy.com/course/rust-programming-master-class-from-beginner-to-expert/?couponCode=ST15MT100124B)
+- [My Notes](notes.md)
 
-When I first installed `rustc` and the `rust-analyzer` plugin in VS Code, the plugin was not working. I found [this thread](https://github.com/rust-lang/rust-analyzer/issues/11558#issuecomment-1054802255). I solved the problem following the second option. But also remember that I was installing on a raspberry pi which might use an older OS.
+## My Journey
 
-The [difference](https://doc.rust-lang.org/stable/book/ch03-03-how-functions-work.html#statements-and-expressions) between statements and expressions is interesting. Statements do not return values while expressions evaluate to a resultant value. Other languages seem to ignore this discussion altogether.
+- [ ] Hello world program
+- [ ] Multi dimensional data I/O
+  - [NetCDF](https://docs.rs/netcdf/latest/netcdf/)
+  - [Polars](https://pola.rs/)
+- [ ] Simple data visualization
+- [ ] Numeric operations
 
-Variable shadowing is very useful, compared to needing to create variables like `x_str` and `x` in C++. This feature is similar to a dynamically typed languge like Python.
