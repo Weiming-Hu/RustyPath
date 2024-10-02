@@ -10,10 +10,13 @@ I would like to dedicate this repository to my journey of learning Rust. My goal
 
 ## My Journey
 
-- [ ] Hello world program
-- [ ] Multi dimensional data I/O
+- [ ] Hello World program
+- [ ] Multi Dimensional Data I/O
   - [NetCDF](https://docs.rs/netcdf/latest/netcdf/)
   - [Polars](https://pola.rs/)
-- [ ] Simple data visualization
-- [ ] Numeric operations
-
+- [ ] Simple Data Visualization
+- [ ] Numeric Operations
+- [ ] Deep Learning
+  - [ ] [Transitioning From PyTorch to Burn](https://dev.to/laggui/transitioning-from-pytorch-to-burn-45m)
+  - [ ] [Candle](https://github.com/huggingface/candle)
+  - [ ] [resnet-burn](https://github.com/laggui/resnet-burn?tab=readme-ov-file)
