@@ -1,8 +1,13 @@
 # Rust and Nvim
 
-This is my environment configuration with `nvim` for `rust` development. I started with this guide: [Rust and Neovim - A Thorough Guide and Walkthrough](https://rsdlt.github.io/posts/rust-nvim-ide-guide-walkthrough-development-debug/).
+This is my environment configuration with `nvim` for `rust` development. I started with the following guides:
 
-My learning environment is Ubuntu.
+- [Rust and Neovim - A Thorough Guide and Walkthrough](https://rsdlt.github.io/posts/rust-nvim-ide-guide-walkthrough-development-debug/)
+- [YouTube video by `Let's get rusty`](https://www.youtube.com/watch?v=E2mKJ73M9pg&t=162s)
+
+My learning environment is Ubuntu and Mac OS.
+
+I installed the following components:
 
 - [NeoVim](https://neovim.io/)
 - [Rust](https://www.rust-lang.org/tools/install)
@@ -19,4 +24,10 @@ My learning environment is Ubuntu.
   - You might want to delete old nvim folders if necessary.
   - Do not forget to complete the post-installation steps: `:MasonInstallAll` and removing `.git`
   - TODO: `npm` is not an executable which failed the `html-lsp` and `css-lsp` installation.
-- 
+- For debugger and inline information
+  - [Rust Analyzer](https://rust-analyzer.github.io/) with `MasonInstall`
+  - [rustaceanvim](https://github.com/mrcjkb/rustaceanvim) to make the rust analyzer work with neovim
+  - [codelldb](https://github.com/vadimcn/codelldb) with `MasonInstall`
+  - [nvim-dap](https://github.com/mfussenegger/nvim-dap) so that `nvim` can work with `lldb`
+- [rust vim](https://github.com/rust-lang/rust.vim) for automatic formatting on save for rust files
+
