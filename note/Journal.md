@@ -1,4 +1,4 @@
-# Logs
+# Learning Journal
 
 ### 2023-11-22
 
