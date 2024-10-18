@@ -13,4 +13,5 @@
 # MSVC Windows builds of rustc generate these, which store debugging information
 *.pdb
 
-20231001_HelloWorld/main
+note/organize
+
